@@ -4,7 +4,7 @@ A reading list of papers related to sketch processing and applications. This is 
 
 ## Content
 - [1. 2D Spline Construction](#1-2d-spline-construction)
-- 2. 3D Sketching Interface
+- [2. 3D Sketching Interface](#2-3d-sketching-interface)
 - 3. Sketch Vectorization
 - 4. Sketch Beautification
 - 5. Sketch Interpolation
@@ -42,3 +42,12 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Sketching Clothoid Splines Using Shortest Paths](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2009.01635.x) | Eurographics 2010 | [[code]](https://github.com/bkmeneguello/cornucopia-lib) |
 | [Neatening sketched strokes using piecewise French Curves](https://dl.acm.org/doi/abs/10.1145/2021164.2021190) | SBIM 2011 | [[project]](https://www.dgp.toronto.edu/~mccrae/projects/french/) |
 | [Elasticurves: Exploiting Stroke Dynamics and Inertia for the Real-time Neatening of Sketched 2D Curves](https://dl.acm.org/doi/abs/10.1145/2047196.2047246) | UIST 2011 | [[project]](https://www.dgp.toronto.edu/~ythiel/Elasticurves/) |
+
+## 2. 3D Sketching Interface
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter 7-10)](https://www.routledge.com/Interactive-Sketch-based-Interfaces-and-Modelling-for-Design/Bonnici-Camilleri/p/book/9788770227704) | River Publishers; 1st edition (2023) | [[chapters]](https://rahularora.xyz/en/) |
+| [Experimental Evaluation of Sketching on Surfaces in VR](https://dl.acm.org/doi/10.1145/3025453.3025474) | CHI 2017 | [[code]](https://github.com/rarora7777/VRSketchingStudyCHI17) |
+| [CASSIE: Curve and Surface Sketching in Immersive Environments](https://dl.acm.org/doi/10.1145/3411764.3445158) | CHI 2021 | [[project]](https://em-yu.github.io/research/cassie/) |
+| [3D-Layers: Bringing Layer-Based Color Editing to VR Painting]() | SIGGRAPH 2024 | [[project]](https://em-yu.github.io/research/3dlayers/) |
