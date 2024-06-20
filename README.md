@@ -7,9 +7,7 @@ A reading list of papers related to sketch processing and applications. This is 
 - [2. 3D Sketching Interface](#2-3d-sketching-interface)
 - [3. Sketch Vectorization](#3-sketch-vectorization)
 - [4. Sketch Beautification](#4-sketch-beautification)
-- 5. Sketch Interpolation
-  - 5.1 Raster Sketch Interpolation
-  - 5.2 Vector Sketch Interpolation
+- [5. Sketch Interpolation](#5-sketch-interpolation)
 - 6. Sketch Topology
 - 7. Sketch Simplification/Consolidation
   - 7.1 In Drawing System
@@ -83,3 +81,13 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Towards Beautification of Freehand Sketches Using Suggestions](https://dl.acm.org/doi/10.1145/1572741.1572754) | SBIM 2009| [[project]](https://engineering.purdue.edu/cdesign/wp/towards-beautification-of-freehand-sketches-using-suggestions/) |
 | [QuickDraw: Improving Drawing Experience for Geometric Diagrams](https://dl.acm.org/doi/10.1145/2207676.2208550) | CHI 2012| |
 | [Advanced Drawing Beautification with ShipShape](https://dl.acm.org/doi/10.1016/j.cag.2016.02.003) | Computers & Graphics 2016 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/shipshape.html) | 
+
+## 5. Sketch Interpolation
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Betweenit An Interactive Tool For Tight Inbetweening](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2009.01630.x) | Eurographics 2010 | [[project]](https://disneyanimation.com/publications/betweenit-an-interactive-tool-for-tight-inbetweening/) [[video]](https://www.youtube.com/watch?v=DuZRNR-6iRo) |
+| [Computer-Assisted Animation of Line and Paint in Disney’s Paperman](https://dl.acm.org/doi/10.1145/2343045.2343071) | SIGGRAPH 2012 Talks | [[project]](https://disneyanimation.com/publications/computer-assisted-animation-of-line-and-paint-in-disneys-paperman/) [[video]](https://www.youtube.com/watch?v=84rl-T2yIls) |
+| [Joint Stroke Tracing and Correspondence for 2D Animation](https://dl.acm.org/doi/10.1145/3649890) | SIGGRAPH 2024 | [[project]](https://markmohr.github.io/JoSTC/) |
+
+| []() | | [[]]() |
