@@ -6,7 +6,7 @@ A reading list of papers related to sketch processing and applications. This is 
 - [1. 2D Spline Construction](#1-2d-spline-construction)
 - [2. 3D Sketching Interface](#2-3d-sketching-interface)
 - [3. Sketch Vectorization](#3-sketch-vectorization)
-- 4. Sketch Beautification
+- [4. Sketch Beautification](#4-sketch-beautification)
 - 5. Sketch Interpolation
   - 5.1 Raster Sketch Interpolation
   - 5.2 Vector Sketch Interpolation
@@ -59,7 +59,7 @@ A reading list of papers related to sketch processing and applications. This is 
 | --- | --- | --- |
 | [Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup](https://dl.acm.org/doi/10.1145/2897824.2925972) | SIGGRAPH 2016 | [[project]](https://esslab.jp/~ess/en/research/sketch_master/) |
 | [Mastering Sketching: Adversarial Augmentation for Structured Prediction](https://arxiv.org/abs/1703.08966) | SIGGRAPH 2018 | [[project]](https://esslab.jp/~ess/en/research/sketch_master/) |
-| [Real-time data-driven interactive rough sketch inking](https://dl.acm.org/doi/10.1145/3197517.3201370) | SIGGRAPH 2018 | [[project]](https://esslab.jp/~ess/en/research/inking/) |
+| [Real-Time Data-Driven Interactive Rough Sketch Inking](https://dl.acm.org/doi/10.1145/3197517.3201370) | SIGGRAPH 2018 | [[project]](https://esslab.jp/~ess/en/research/inking/) |
 
 ### Sketch Vectorization
 | Paper | Source | Code/Project Link  |
@@ -72,3 +72,14 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Keypoint-Driven Line Drawing Vectorization via PolyVector Flow](https://dl.acm.org/doi/10.1145/3478513.3480529) | SIGGRAPH Asia 2021 | [[project]](https://puhachov.xyz/publications/keypoint-driven-polyvector-flow/) |
 | [General Virtual Sketching Framework for Vector Line Art](https://dl.acm.org/doi/abs/10.1145/3450626.3459833) | SIGGRAPH 2021 | [[project]](https://markmohr.github.io/virtual_sketching/) |
 | [Deep Sketch Vectorization via Implicit Surface Extraction](https://cragl.cs.gmu.edu/sketchvector/) | SIGGRAPH 2024 | [[project]](https://cragl.cs.gmu.edu/sketchvector/) |
+
+## 4. Sketch Beautification
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [An Automatic Beautifier for Drawings and Illustrations](https://dl.acm.org/doi/10.1145/325165.325240) | SIGGRAPH 1985| |
+| [Interactive Beautification: A Technique for Rapid Geometric Design](https://dl.acm.org/doi/10.1145/263407.263525) | UIST 1997| [[video]](https://open-video.org/details.php?videoid=8221) |
+| [PaleoSketch: Accurate Primitive Sketch Recognition and Beautification](https://dl.acm.org/doi/10.1145/1378773.1378775) | IUI 2008| |
+| [Towards Beautification of Freehand Sketches Using Suggestions](https://dl.acm.org/doi/10.1145/1572741.1572754) | SBIM 2009| [[project]](https://engineering.purdue.edu/cdesign/wp/towards-beautification-of-freehand-sketches-using-suggestions/) |
+| [QuickDraw: Improving Drawing Experience for Geometric Diagrams](https://dl.acm.org/doi/10.1145/2207676.2208550) | CHI 2012| |
+| [Advanced Drawing Beautification with ShipShape](https://dl.acm.org/doi/10.1016/j.cag.2016.02.003) | Computers & Graphics 2016 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/shipshape.html) | 
