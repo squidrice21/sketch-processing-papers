@@ -13,10 +13,10 @@ A reading list of papers related to sketch processing and applications. This is 
   - [7.1 In Drawing System](#71-in-drawing-system)
   - [7.2 Clustering](#72-clustering)
   - [7.3 Fitting](#73-fitting)
-- 8. Junction Construction/Gap Filling
-  - 8.1 Junction Connection
-  - 8.2 Region Filling
-  - 8.3 ML End-to-End Models
+- [8. Flat Colorization/Junction Reconstruction](#8-flat-colorizationjunction-reconstruction)
+  - [8.1 Region Filling](#81-region-filling)
+  - [8.2 Junction Connection](#82-junction-connection)
+  - [8.3 Learning-Based](#83-learning-based)
 - 9. 2D Sketch Lifting
 - 10. 3D Sketch Surfacing
 - 11. Sketch-Based Modeling
@@ -129,5 +129,36 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Sketch-Based 3D-Shape Creation for Industrial Styling Design](https://ieeexplore.ieee.org/document/4052500) | CG&A 2007 | |
 | [Beautification of Design Sketches Using Trainable Stroke Clustering and Curve Fitting](https://ieeexplore.ieee.org/abstract/document/5710858) | TVCG 2011 | [[data]](http://vdel.me.cmu.edu/vdelresource/publications/2011ieee/Data/) |
 | [StrokeStrip: Joint Parameterization and Fitting of Stroke Clusters](https://dl.acm.org/doi/10.1145/3450626.3459777) | SIGGRAPH 2021 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2021/StrokeStrip/) |
+
+## 8. Flat Colorization/Junction Reconstruction
+
+### 8.1 Region Filling
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Vectorizing Cartoon Animations](https://ieeexplore.ieee.org/document/4745633) | TVCG 2009 | |
+| [LazyBrush: Flexible Painting Tool for Hand-drawn Cartoons](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2009.01400.x) | Eurographics 2009 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/lazybrush.html) |
+| [Color by Numbers: Interactive Structuring and Vectorization of Sketch Imagery](https://dl.acm.org/doi/10.1145/3411764.3445215) | CHI 2021 | |
+| [Delaunay Painting: Perceptual Image Colouring from Raster Contours with Gaps](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14517) | Eurographics 2022 | [[video]](https://www.youtube.com/watch?v=OHst_FAee3Q) |
+
+### 8.2 Junction Connection
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Automatic Gap Closing for Freehand Drawing](https://www.semanticscholar.org/paper/Automatic-Gap-Closing-for-Freehand-Drawing-Gangnet-Thong/537e40b0587bb76c1d18599b38212b63e092962a) | SIGGRAPH 1994 Technical Sketch | |
+| [Dynamic Planar Map Illustration](https://dl.acm.org/doi/10.1145/1276377.1276415) | SIGGRAPH 2007 | |
+| [Handling Gaps for Vector Graphics Coloring](https://dl.acm.org/doi/10.1007/s00371-021-02235-x) | CGI 2021 | [[video]](https://www.youtube.com/watch?v=b4yR9_Wcuac) |
+| [A Fast and Efficient Semi-guided Algorithm for Flat Coloring Line-arts](https://diglib.eg.org/items/0aa483d1-5ca6-4a2e-9813-c421e10e3cc7) | Eurographics 2018|  |
+| [Endpoint Fusing Method for Axonometric Drawing of Online Freehand Sketched Polyhedrons](https://dl.acm.org/doi/10.1007/s00371-018-1608-5) | The Visual Computer 2020 | |
+| [Detecting Viewer-Perceived Intended Vector Sketch Connectivity](https://dl.acm.org/doi/10.1145/3528223.3530097) | SIGGRAPH 2022 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2022/SketchConnectivity/) |
+
+### 8.3 Learning-Based
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Joint Gap Detection and Inpainting of Line Drawings](https://ieeexplore.ieee.org/document/8100094) | CVPR 2017 | [[code]](https://github.com/kaidlc/CVPR2017_linedrawings) |
+| [DanbooRegion: An Illustration Region Dataset](https://dl.acm.org/doi/10.1007/978-3-030-58601-0_9) | ECCV 2020 | [[project]](https://lllyasviel.github.io/DanbooRegion/) |
+| [User-Guided Line Art Flat Filling with Split Filling Mechanism](https://ieeexplore.ieee.org/document/9578141) | CVPR 2021 | [[project]](https://lllyasviel.github.io/SplitFilling/) |
+| [FlatMagic: Improving Flat Colorization through AI-driven Design for Digital Comic Professionals](https://dl.acm.org/doi/10.1145/3491102.3502075) | CHI 2022 | [[project]](https://cragl.cs.gmu.edu/flatmagic/) |
 
 | []() | | [[]]() |
