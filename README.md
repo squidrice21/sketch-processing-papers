@@ -1,6 +1,6 @@
 # Sketch Processing Papers
 
-A reading list of papers related to sketch processing and applications. This is supplementary to the SGP 2024 course "Fundamentals and Applications of Sketch Processing".
+A reading list of papers related to sketch processing and applications. This is supplementary to the [SGP 2024](https://sgp2024.github.io/) course "Fundamentals and Applications of Sketch Processing".
 
 ## Content
 - [1. 2D Spline Construction](#1-2d-spline-construction)
@@ -17,7 +17,7 @@ A reading list of papers related to sketch processing and applications. This is 
   - [8.1 Region Filling](#81-region-filling)
   - [8.2 Junction Connection](#82-junction-connection)
   - [8.3 Learning-Based](#83-learning-based)
-- 9. 2D Sketch Lifting
+- [9. 2D Sketch Lifting](#9-2d-sketch-lifting)
 - 10. 3D Sketch Surfacing
 - 11. Sketch-Based Modeling
   - 11.1 Geometric and CAD Models
@@ -160,5 +160,14 @@ A reading list of papers related to sketch processing and applications. This is 
 | [DanbooRegion: An Illustration Region Dataset](https://dl.acm.org/doi/10.1007/978-3-030-58601-0_9) | ECCV 2020 | [[project]](https://lllyasviel.github.io/DanbooRegion/) |
 | [User-Guided Line Art Flat Filling with Split Filling Mechanism](https://ieeexplore.ieee.org/document/9578141) | CVPR 2021 | [[project]](https://lllyasviel.github.io/SplitFilling/) |
 | [FlatMagic: Improving Flat Colorization through AI-driven Design for Digital Comic Professionals](https://dl.acm.org/doi/10.1145/3491102.3502075) | CHI 2022 | [[project]](https://cragl.cs.gmu.edu/flatmagic/) |
+
+## 9. 2D Sketch Lifting
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Optimization-Based Reconstruction of a 3D Object From a Single Freehand Line Drawing](https://dl.acm.org/doi/10.1145/1281500.1281556) | SIGGRAPH 2007 course| |
+| [OpenSketch: A Richly-Annotated Dataset of Product Design Sketches](https://dl.acm.org/doi/10.1145/3355089.3356533) | SIGGRAPH Asia 2019 | [[project]](https://ns.inria.fr/d3/OpenSketch/) |
+| [Lifting Freehand Concept Sketches into 3D](https://dl.acm.org/doi/10.1145/3414685.3417851) | SIGGRAPH Asia 2020 | [[project]](https://ns.inria.fr/d3/Lift3D/) |
+| [Symmetry-driven 3D Reconstruction from Concept Sketches](https://dl.acm.org/doi/10.1145/3528233.3530723) | SIGGRAPH 2022 | [[project]](https://ns.inria.fr/d3/SymmetrySketch/) |
 
 | []() | | [[]]() |
