@@ -8,11 +8,11 @@ A reading list of papers related to sketch processing and applications. This is 
 - [3. Sketch Vectorization](#3-sketch-vectorization)
 - [4. Sketch Beautification](#4-sketch-beautification)
 - [5. Sketch Interpolation](#5-sketch-interpolation)
-- 6. Sketch Topology
-- 7. Sketch Simplification/Consolidation
-  - 7.1 In Drawing System
-  - 7.2 Clustering
-  - 7.3 Fitting
+- [6. Sketch Topology](#6-sketch-topology)
+- [7. Sketch Cleanup/Simplification/Consolidation](#7-sketch-cleanupsimplificationconsolidation)
+  - [7.1 In Drawing System](#71-in-drawing-system)
+  - [7.2 Clustering](#72-clustering)
+  - [7.3 Fitting](#73-fitting)
 - 8. Junction Construction/Gap Filling
   - 8.1 Junction Connection
   - 8.2 Region Filling
@@ -47,6 +47,7 @@ A reading list of papers related to sketch processing and applications. This is 
 | --- | --- | --- |
 | [Interactive Sketch-Based Interfaces and Modelling for Design (Book Chapter 7-10)](https://www.routledge.com/Interactive-Sketch-based-Interfaces-and-Modelling-for-Design/Bonnici-Camilleri/p/book/9788770227704) | River Publishers; 1st edition (2023) | [[chapters]](https://rahularora.xyz/en/) |
 | [Experimental Evaluation of Sketching on Surfaces in VR](https://dl.acm.org/doi/10.1145/3025453.3025474) | CHI 2017 | [[code]](https://github.com/rarora7777/VRSketchingStudyCHI17) |
+| [ScafoldSketch: Accurate Industrial Design Drawing in VR](https://dl.acm.org/doi/10.1145/3472749.3474756) | UIST 2021 | [[project]](https://cragl.cs.gmu.edu/scaffoldsketch/) |
 | [CASSIE: Curve and Surface Sketching in Immersive Environments](https://dl.acm.org/doi/10.1145/3411764.3445158) | CHI 2021 | [[project]](https://em-yu.github.io/research/cassie/) |
 | [3D-Layers: Bringing Layer-Based Color Editing to VR Painting]() | SIGGRAPH 2024 | [[project]](https://em-yu.github.io/research/3dlayers/) |
 
@@ -89,5 +90,44 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Betweenit An Interactive Tool For Tight Inbetweening](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2009.01630.x) | Eurographics 2010 | [[project]](https://disneyanimation.com/publications/betweenit-an-interactive-tool-for-tight-inbetweening/) [[video]](https://www.youtube.com/watch?v=DuZRNR-6iRo) |
 | [Computer-Assisted Animation of Line and Paint in Disney’s Paperman](https://dl.acm.org/doi/10.1145/2343045.2343071) | SIGGRAPH 2012 Talks | [[project]](https://disneyanimation.com/publications/computer-assisted-animation-of-line-and-paint-in-disneys-paperman/) [[video]](https://www.youtube.com/watch?v=84rl-T2yIls) |
 | [Joint Stroke Tracing and Correspondence for 2D Animation](https://dl.acm.org/doi/10.1145/3649890) | SIGGRAPH 2024 | [[project]](https://markmohr.github.io/JoSTC/) |
+
+## 6. Sketch Topology
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Vector Graphics Complexes](https://dl.acm.org/doi/abs/10.1145/2601097.2601169) | SIGGRAPH 2014 | [[project]](https://www.borisdalstein.com/research/vgc/) |
+| [Vector Graphics Animation with Time-Varying Topology](https://dl.acm.org/doi/10.1145/2766913) | SIGGRAPH 2015 | [[project]](https://www.borisdalstein.com/research/vac/) |
+| [Flow-Complex-Based Shape Reconstruction From 3D Curve Sketches](https://dl.acm.org/doi/10.1145/2560328) | SIGGRAPH 2014 | [[project]](https://www.cs.toronto.edu/~sadri/page4/files/d76b1e69c42fda288de3495bd502ecd4-13.html) |
+| [Differential Operators on Sketches via Alpha Contours](https://dl.acm.org/doi/abs/10.1145/3592420) | SIGGRAPH 2023 | [[project]](https://www-labs.iro.umontreal.ca/~bmpix/AlphaContours/) |
+
+## 7. Sketch Cleanup/Simplification/Consolidation
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [A Benchmark for Rough Sketch Cleanup](https://dl.acm.org/doi/abs/10.1145/3414685.3417784) | SIGGRAPH Asia 2020 | [[project]](https://cragl.cs.gmu.edu/sketchbench/) |
+
+### 7.1 In Drawing System
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [A Mark-Based Interaction Paradigm for Free-Hand Drawing](https://dl.acm.org/doi/10.1145/192426.192496) | UIST 1994 |  |
+| [ILoveSketch: As-Natural-As-Possible Sketching System for Creating 3D Curve Models](https://dl.acm.org/doi/10.1145/1449715.1449740) | UIST 2008 | [[project]](https://www.dgp.toronto.edu/~shbae/ilovesketch.htm) |
+| [Just DrawIt: A 3D Sketching System](https://dl.acm.org/doi/10.5555/2331067.2331084) | SBIM 2012 | |
+
+### 7.2 Clustering
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Geometric Clustering for Line Drawing Simplification](https://dl.acm.org/doi/10.1145/1187112.1187227) | EGSR 2005 | [[project]](https://maverick.inria.fr/Publications/2005/BTS05a/index.php) |
+| [Efficient and Dynamic Simplification of Line Drawings](https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2008.01151.x) | Eurographics 2008 | |
+| [Beautification of Design Sketches Using Trainable Stroke Clustering and Curve Fitting](https://ieeexplore.ieee.org/abstract/document/5710858) | TVCG 2011 | [[data]](http://vdel.me.cmu.edu/vdelresource/publications/2011ieee/Data/) |
+| [Closure-aware Sketch Simplification](https://dl.acm.org/doi/10.1145/2816795.2818067) | SIGGRAPH 2015 | [[project]](https://ttwong12.github.io/papers/sketch/sketch.html) |
+| [StrokeAggregator: Consolidating Raw Sketches into Artist-Intended Curve Drawings](https://dl.acm.org/doi/10.1145/3197517.3201314) | SIGGRAPH 2018 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2018/StrokeAggregator/) |
+| [StripMaker: Perception-driven Learned Vector Sketch Consolidation]() | SIGGRAPH 2023 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2023/stripmaker/) |
+
+### 7.3 Fitting
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Sketch-Based 3D-Shape Creation for Industrial Styling Design](https://ieeexplore.ieee.org/document/4052500) | CG&A 2007 | |
+| [Beautification of Design Sketches Using Trainable Stroke Clustering and Curve Fitting](https://ieeexplore.ieee.org/abstract/document/5710858) | TVCG 2011 | [[data]](http://vdel.me.cmu.edu/vdelresource/publications/2011ieee/Data/) |
+| [StrokeStrip: Joint Parameterization and Fitting of Stroke Clusters](https://dl.acm.org/doi/10.1145/3450626.3459777) | SIGGRAPH 2021 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2021/StrokeStrip/) |
 
 | []() | | [[]]() |
