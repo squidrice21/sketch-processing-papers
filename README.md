@@ -5,7 +5,7 @@ A reading list of papers related to sketch processing and applications. This is 
 ## Content
 - [1. 2D Spline Construction](#1-2d-spline-construction)
 - [2. 3D Sketching Interface](#2-3d-sketching-interface)
-- 3. Sketch Vectorization
+- [3. Sketch Vectorization](#3-sketch-vectorization)
 - 4. Sketch Beautification
 - 5. Sketch Interpolation
   - 5.1 Raster Sketch Interpolation
@@ -51,3 +51,24 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Experimental Evaluation of Sketching on Surfaces in VR](https://dl.acm.org/doi/10.1145/3025453.3025474) | CHI 2017 | [[code]](https://github.com/rarora7777/VRSketchingStudyCHI17) |
 | [CASSIE: Curve and Surface Sketching in Immersive Environments](https://dl.acm.org/doi/10.1145/3411764.3445158) | CHI 2021 | [[project]](https://em-yu.github.io/research/cassie/) |
 | [3D-Layers: Bringing Layer-Based Color Editing to VR Painting]() | SIGGRAPH 2024 | [[project]](https://em-yu.github.io/research/3dlayers/) |
+
+## 3. Sketch Vectorization
+
+### Raster sketch cleanup
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup](https://dl.acm.org/doi/10.1145/2897824.2925972) | SIGGRAPH 2016 | [[project]](https://esslab.jp/~ess/en/research/sketch_master/) |
+| [Mastering Sketching: Adversarial Augmentation for Structured Prediction](https://arxiv.org/abs/1703.08966) | SIGGRAPH 2018 | [[project]](https://esslab.jp/~ess/en/research/sketch_master/) |
+| [Real-time data-driven interactive rough sketch inking](https://dl.acm.org/doi/10.1145/3197517.3201370) | SIGGRAPH 2018 | [[project]](https://esslab.jp/~ess/en/research/inking/) |
+
+### Sketch Vectorization
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Topology-Driven Vectorization of Clean Line Drawings](https://dl.acm.org/doi/10.1145/2421636.2421640) | SIGGRAPH 2012 | [[project]](https://disneyanimation.com/publications/topology-driven-vectorization-of-clean-line-drawings/) |
+| [Fidelity vs. Simplicity: a Global Approach to Line Drawing Vectorization](https://dl.acm.org/doi/10.1145/2897824.2925946) | SIGGRAPH 2016 | [[project]](https://www-sop.inria.fr/reves/Basilic/2016/FLB16/) |
+| [Vectorization of Line Drawings via PolyVector Fields](https://arxiv.org/abs/1801.01922) | SIGGRAPH 2019 | [[project]](https://github.com/bmpix/PolyVectorization) |
+| [A Benchmark for Rough Sketch Cleanup](https://dl.acm.org/doi/abs/10.1145/3414685.3417784) | SIGGRAPH Asia 2020 | [[project]](https://cragl.cs.gmu.edu/sketchbench/) |
+| [Integer‐Grid Sketch Simplification and Vectorization](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14075) | SGP 2020 | [[project]](https://www-sop.inria.fr/reves/Basilic/2020/SBBB20/) |
+| [Keypoint-Driven Line Drawing Vectorization via PolyVector Flow](https://dl.acm.org/doi/10.1145/3478513.3480529) | SIGGRAPH Asia 2021 | [[project]](https://puhachov.xyz/publications/keypoint-driven-polyvector-flow/) |
+| [General Virtual Sketching Framework for Vector Line Art](https://dl.acm.org/doi/abs/10.1145/3450626.3459833) | SIGGRAPH 2021 | [[project]](https://markmohr.github.io/virtual_sketching/) |
+| [Deep Sketch Vectorization via Implicit Surface Extraction](https://cragl.cs.gmu.edu/sketchvector/) | SIGGRAPH 2024 | [[project]](https://cragl.cs.gmu.edu/sketchvector/) |
