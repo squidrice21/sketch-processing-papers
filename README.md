@@ -23,7 +23,7 @@ A reading list of papers related to sketch processing and applications. This is 
   - [11.1 Organic Shapes](#111-organic-shapes)
   - [11.2 Geometric and CAD Models](#112-geometric-and-cad-models)
   - [11.3 Domain Specific](#113-domain-specific)
-- 12. Sketch-Based Editing
+- [12. Sketch-Based Editing](#12-sketch-based-editing)
 - 13. Sketch-Based Animation Control
   - 13.1 Posing
   - 13.2 Animation
@@ -214,6 +214,17 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Interactive Liquid Splash Modeling by User Sketches](https://dl.acm.org/doi/abs/10.1145/3414685.3417832) | SIGGRAPH Asia 2020 | [[project]](https://wanghmin.github.io/publication/yan-2020-ils/) |
 | [SketchHairSalon: Deep Sketch-based Hair Image Synthesis](https://dl.acm.org/doi/abs/10.1145/3478513.3480502) | SIGGRAPH Asia 2021 | [[project]](https://chufengxiao.github.io/SketchHairSalon/) |
 
-| []() | | [[]]() |
+## 12. Sketch-Based Editing
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [A Sketch-Based Interface for Detail-Preserving Mesh Editing](https://dl.acm.org/doi/10.1145/1186822.1073324) | SIGGRAPH 2005 | [[project]](https://igl.ethz.ch/projects/Laplacian-mesh-processing/sketch-mesh-editing/index.php) |
+| [Modeling from Contour Drawings](https://dl.acm.org/doi/10.1145/1572741.1572749) | SBIM 2009 | |
+| [Sketching in Gestalt Space: Interactive Shape Abstraction through Perceptual Reasoning](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13321) | Computer Graphics Forum 2018 | [[project]](https://vcc.tech/research/2018/3DGestalt) |
+| [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://www.computer.org/csdl/proceedings-article/iccv/2021/281200n3003/1BmJsHikEfu) | ICCV 2021 | [[code]](https://github.com/cvlab-epfl/sketch2mesh) |
+| [SKED: Sketch-guided Text-based 3D Editing](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800o4561/1TJgXGJgCYg) | ICCV 2023 | [[]](https://sked-paper.github.io/) |
+| [SketchDream: Sketch-based Text-to-3D Generation and Editing]() | SIGGRAPH 2024 | [[project]](https://geometrylearning.com/SketchDream/) |
+| [Squidgets: Sketch-based Widget Design and Direct Manipulation of 3D Scenes](https://arxiv.org/abs/2402.06795) | 2024 | [[]]() |
+
 | []() | | [[]]() |
 
