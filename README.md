@@ -222,9 +222,9 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Modeling from Contour Drawings](https://dl.acm.org/doi/10.1145/1572741.1572749) | SBIM 2009 | |
 | [Sketching in Gestalt Space: Interactive Shape Abstraction through Perceptual Reasoning](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13321) | Computer Graphics Forum 2018 | [[project]](https://vcc.tech/research/2018/3DGestalt) |
 | [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://www.computer.org/csdl/proceedings-article/iccv/2021/281200n3003/1BmJsHikEfu) | ICCV 2021 | [[code]](https://github.com/cvlab-epfl/sketch2mesh) |
-| [SKED: Sketch-guided Text-based 3D Editing](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800o4561/1TJgXGJgCYg) | ICCV 2023 | [[]](https://sked-paper.github.io/) |
+| [SKED: Sketch-guided Text-based 3D Editing](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800o4561/1TJgXGJgCYg) | ICCV 2023 | [[project]](https://sked-paper.github.io/) |
 | [SketchDream: Sketch-based Text-to-3D Generation and Editing]() | SIGGRAPH 2024 | [[project]](https://geometrylearning.com/SketchDream/) |
-| [Squidgets: Sketch-based Widget Design and Direct Manipulation of 3D Scenes](https://arxiv.org/abs/2402.06795) | 2024 | [[]]() |
+| [Squidgets: Sketch-based Widget Design and Direct Manipulation of 3D Scenes](https://arxiv.org/abs/2402.06795) | 2024 | |
 
 | []() | | [[]]() |
 
