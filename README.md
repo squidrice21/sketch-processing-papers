@@ -18,11 +18,11 @@ A reading list of papers related to sketch processing and applications. This is 
   - [8.2 Junction Connection](#82-junction-connection)
   - [8.3 Learning-Based](#83-learning-based)
 - [9. 2D Sketch Lifting](#9-2d-sketch-lifting)
-- 10. 3D Sketch Surfacing
-- 11. Sketch-Based Modeling
-  - 11.1 Geometric and CAD Models
-  - 11.2 Organic Shapes
-  - 11.3 Domain Specific
+- [10. 3D Sketch Surfacing](#10-3d-sketch-surfacing)
+- [11. Sketch-Based Modeling](#11-sketch-based-modeling)
+  - [11.1 Organic Shapes](#111-organic-shapes)
+  - [11.2 Geometric and CAD Models](#112-geometric-and-cad-models)
+  - [11.3 Domain Specific](#113-domain-specific)
 - 12. Sketch-Based Editing
 - 13. Sketch-Based Animation Control
   - 13.1 Posing
@@ -170,4 +170,50 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Lifting Freehand Concept Sketches into 3D](https://dl.acm.org/doi/10.1145/3414685.3417851) | SIGGRAPH Asia 2020 | [[project]](https://ns.inria.fr/d3/Lift3D/) |
 | [Symmetry-driven 3D Reconstruction from Concept Sketches](https://dl.acm.org/doi/10.1145/3528233.3530723) | SIGGRAPH 2022 | [[project]](https://ns.inria.fr/d3/SymmetrySketch/) |
 
+## 10. 3D Sketch Surfacing
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [SurfaceBrush: From Virtual Reality Drawings to Manifold Surfaces](https://dl.acm.org/doi/10.1145/3306346.3322970) | SIGGRAPH 2019 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2019/SurfaceBrush/) |
+| [Variational Implicit Point Set Surface](https://dl.acm.org/doi/10.1145/3306346.3322994) | SIGGRAPH 2019 | [[code]](https://github.com/adshhzy/VIPSS) |
+| [Piecewise-Smooth Surface Fitting onto Unstructured 3D Sketches](https://dl.acm.org/doi/10.1145/3528223.3530100) | SIGGRAPH 2022 | [[project]](https://em-yu.github.io/research/surfacing_3d_sketches/) |
+| [Globally Consistent Normal Orientation for Point Clouds by Regularizing the Winding-number Field](https://dl.acm.org/doi/10.1145/3592129) | SIGGRAPH 2023 | [[project]](https://xrvitd.github.io/Projects/GCNO/index.html) |
+
+## 11. Sketch-Based Modeling
+
+### 11.1 Organic Shapes
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Teddy: A Sketching Interface for 3D Freeform Design](https://dl.acm.org/doi/10.1145/311535.311602) | SIGGRAPH 1999 | [[project]](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/teddy/teddy.htm) |
+| [FiberMesh: Designing Freeform Surfaces with 3D Curves](https://dl.acm.org/doi/10.1145/1276377.1276429) | SIGGRAPH 2007 | [[project]](https://igl.ethz.ch/projects/FiberMesh/index.php) |
+| [Ink-and-Ray: Bas-Relief Meshes for Adding Global Illumination Effects to Hand-Drawn Characters](https://dl.acm.org/doi/10.1145/2591011) | SIGGRAPH 2014 | [[project]](https://users.cs.utah.edu/~ladislav/sykora14ink/sykora14ink.html) |
+| [Modeling Character Canvases from Cartoon Drawings](https://dl.acm.org/doi/abs/10.1145/2801134) | SIGGRAPH 2015 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2015/Canvases/) |
+| [RodMesh: Two-handed 3D Surface Modeling in Virtual Reality](https://diglib.eg.org/items/ca3dc460-6022-4bb7-bb87-131c122e9a7a) | VMV 2019 | [[project]](https://igl.ethz.ch/projects/rodmesh/) |
+| [Monster Mash: A Single-View Approach to Casual 3D Modeling and Animation](https://dl.acm.org/doi/10.1145/3414685.3417805) | SIGGRAPH Asia 2020 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/monster_mash) |
+
+### 11.2 Geometric and CAD Models
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Analytic Drawing of 3D Scaffolds](https://dl.acm.org/doi/10.1145/1618452.1618495) | SIGGRAPH Asia 2009 | [[project]](https://www.dgp.toronto.edu/~rms/pubs/DrawingSGA09.html) |
+| [CrossShade: Shading Concept Sketches Using Cross-Section Curves](https://dl.acm.org/doi/10.1145/2185520.2185541) | SIGGRAPH 2012 | [[project]](http://crossshade.com/) |
+| [Sketch-to-Design: Context-based Part Assembly](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.12200) | Computer Graphics Forum 2013 | |
+| [True2Form: 3D Curve Networks from 2D Sketches via Selective Regularization](https://dl.acm.org/doi/10.1145/2601097.2601128) | SIGGRAPH 2014 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2014/True2Form/index.htm) |
+| [SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015) | Eurographics 2024 | [[project]](https://alexandrebinninger.com/SENS/) |
+| [Sketch2CAD: Sequential CAD Modeling by Sketching in Context](https://dl.acm.org/doi/10.1145/3414685.3417807) | SIGGRAPH Asia 2020 | [[project]](https://geometry.cs.ucl.ac.uk/projects/2020/sketch2cad/) |
+| [Free2CAD: Parsing Freehand Drawings Into CAD Commands](https://dl.acm.org/doi/abs/10.1145/3528223.3530133) | SIGGRAPH 2022 | [[project]](https://geometry.cs.ucl.ac.uk/projects/2022/free2cad/) |
+
+### 11.3 Domain Specific
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [SecondSkin: Sketch-based Construction of Layered 3D Models](https://dl.acm.org/doi/10.1145/2766948) | SIGGRAPH 2015 | [[project]](https://www.dgp.toronto.edu/~depaolic/projects/secondSkin/) |
+| [Interactive Sketching of Urban Procedural Models](https://dl.acm.org/doi/10.1145/2897824.2925951) | SIGGRAPH 2016 | [[project]](https://www-sop.inria.fr/reves/Basilic/2016/NGGBB16/) |
+| [FoldSketch: Enriching Garments with Physically Reproducible Folds](https://dl.acm.org/doi/10.1145/3197517.3201310) | SIGGRAPH 2018 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2018/FoldSketch/) |
+| [Interactive Liquid Splash Modeling by User Sketches](https://dl.acm.org/doi/abs/10.1145/3414685.3417832) | SIGGRAPH Asia 2020 | [[project]](https://wanghmin.github.io/publication/yan-2020-ils/) |
+| [SketchHairSalon: Deep Sketch-based Hair Image Synthesis](https://dl.acm.org/doi/abs/10.1145/3478513.3480502) | SIGGRAPH Asia 2021 | [[project]](https://chufengxiao.github.io/SketchHairSalon/) |
+
 | []() | | [[]]() |
+| []() | | [[]]() |
+
