@@ -1,6 +1,6 @@
 # Sketch Processing Papers
 
-A reading list of papers related to sketch processing and applications. This is supplementary to the [SGP 2024](https://sgp2024.github.io/) course "Fundamentals and Applications of Sketch Processing".
+A reading list of papers related to sketch processing and applications. This is supplementary to the [SGP 2024](https://sgp2024.github.io/) course "Fundamentals and Applications of Sketch Processing" made by [Mikhail Bessmeltsev](https://www-labs.iro.umontreal.ca/~bmpix/) and [Chenxi Liu](https://chenxil21.github.io/).
 
 ## Content
 - [1. 2D Spline Construction](#1-2d-spline-construction)
