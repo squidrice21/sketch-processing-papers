@@ -27,10 +27,10 @@ A reading list of papers related to sketch processing and applications. This is 
 - [13. Sketch-Based Animation Control](#13-sketch-based-animation-control)
   - [13.1 Posing](#131-posing)
   - [13.2 Animation](#132-animation)
-- 14. Sketch Perception Studies
-- 15. Learning-Based Sketch Processing
-  - 15.1 Sketch Understanding
-  - 15.2 Sketch Generation
+- [14. Sketch Perception](#14-sketch-perception)
+- [15. Vision Tasks on Sketches](#15-vision-tasks-on-sketches)
+  - [15.1 Sketch Understanding](#151-sketch-understanding)
+  - [15.2 Sketch Generation](#152-sketch-generation)
  
 ## 1. 2D Spline Construction
 
@@ -245,5 +245,40 @@ A reading list of papers related to sketch processing and applications. This is 
 | [SketchiMo: Sketch-based Motion Editing for Articulated Characters](https://dl.acm.org/doi/10.1145/2897824.2925970) | SIGGRAPH 2016 | [[project]](https://vml.kaist.ac.kr/main/international/individual/2) |
 | [Tangent-Space Optimization for Interactive Animation Control](https://dl.acm.org/doi/10.1145/3306346.3322938) | SIGGRAPH 2019 | [[project]](https://cgl.ethz.ch/publications/papers/paperCic19a.php) |
 
-| []() | | [[]]() |
+## 14. Sketch Perception
 
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Where Do People Draw Lines?](https://dl.acm.org/doi/10.1145/1360612.1360687) | SIGGRAPH 2008 | [[project]](https://gfx.cs.princeton.edu/pubs/Cole_2008_WDP/) |
+| [How Well Do Line Drawings Depict Shape?](https://dl.acm.org/doi/10.1145/1576246.1531334) | SIGGRAPH 2009 | [[project]](https://gfx.cs.princeton.edu/pubs/Cole_2009_HWD/index.php) |
+| [Tracing Versus Freehand for Evaluating Computer-Generated Drawings](https://dl.acm.org/doi/10.1145/3450626.3459819) | SIGGRAPH 2021 | [[project]](https://zachzeyuwang.github.io/tracing-vs-freehand.html) |
+| [DifferSketching: How Differently Do People Sketch 3D Objects?](https://dl.acm.org/doi/abs/10.1145/3550454.3555493) | SIGGRAPH Asia 2022 | [[project]](https://chufengxiao.github.io/DifferSketching/) |
+| [The Role of Edges in Line Drawing Perception](https://journals.sagepub.com/doi/full/10.1177/0301006621994407) | Perception 2021 | |
+
+## 15. Vision Tasks on Sketches
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Deep Learning for Free-Hand Sketch: A Survey](https://ieeexplore.ieee.org/document/9706366) | TPAMI 2022 | [[project]](https://www.research.ed.ac.uk/en/publications/deep-learning-for-free-hand-sketch-a-survey) |
+| [OpenSketch: A Richly-Annotated Dataset of Product Design Sketches](https://dl.acm.org/doi/10.1145/3355089.3356533) | SIGGRAPH Asia 2019 | [[project]](https://ns.inria.fr/d3/OpenSketch/) |
+| [Creative Flow+ Dataset](https://ieeexplore.ieee.org/document/8953383) | CVPR 2019 | [[project]](https://www.cs.toronto.edu/creativeflow/) |
+| [Deep Sketch-Based Modeling: Tips and Tricks](https://arxiv.org/abs/2011.06133) | 3DV 2020 | [[code]](https://github.com/Yueeey/deepsketch) |
+| [Neural Strokes: Stylized Line Drawing of 3D Shapes](https://arxiv.org/abs/2110.03900) | ICCV 2021 | [[project]](https://people.cs.umass.edu/~dliu/projects/NeuralStrokes/) |
+| [CAD2Sketch: Generating Concept Sketches from CAD Sequences](https://dl.acm.org/doi/abs/10.1145/3550454.3555488) | SIGGRAPH Asia 2022 | [[project]](https://www-sop.inria.fr/reves/Basilic/2022/HLMB22/) |
+
+### 15.1 Sketch Understanding
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence](https://arxiv.org/abs/2001.05744) | TCSVT 2020	 | [[project]](https://dengyuhk.github.io/SketchDesc/) |
+| [SketchZooms: Deep Multi-view Descriptors for Matching Line Drawings](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14197) | Computer Graphics Forum 2020 | [[project]](https://ignaciorlando.github.io/publication/2020-cgf-sketchzooms/) |
+| [SEVA: Leveraging Sketches to Evaluate Alignment between Human and Machine Visual Abstraction](https://arxiv.org/abs/2312.03035) | NeurIPS 2023 | [[project]](https://seva-benchmark.github.io/) |
+
+### 15.2 Sketch Generation
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [CLIPasso: Semantically-Aware Object Sketching](https://dl.acm.org/doi/abs/10.1145/3528223.3530068) | SIGGRAPH 2022 | [[project]](https://clipasso.github.io/clipasso/) |
+| [CLIPascene: Scene Sketching with Different Types and Levels of Abstraction](https://www.computer.org/csdl/proceedings-article/iccv/2023/7.18E127/1TJdfQXb3R6) | ICCV 2023 | [[project]](https://clipascene.github.io/CLIPascene/) |
+| [SketchKnitter: Vectorized Sketch Generation with Diffusion Models](https://iclr.cc/virtual/2023/poster/11832) | ICLR 2023 | [[project]](https://github.com/wangqiang9/SketchKnitter) |
+| [Breathing Life Into Sketches Using Text-to-Video Priors](https://arxiv.org/abs/2311.13608) | CVPR 2024 | [[project]](https://livesketch.github.io/) |
