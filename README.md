@@ -24,9 +24,9 @@ A reading list of papers related to sketch processing and applications. This is 
   - [11.2 Geometric and CAD Models](#112-geometric-and-cad-models)
   - [11.3 Domain Specific](#113-domain-specific)
 - [12. Sketch-Based Editing](#12-sketch-based-editing)
-- 13. Sketch-Based Animation Control
-  - 13.1 Posing
-  - 13.2 Animation
+- [13. Sketch-Based Animation Control](#13-sketch-based-animation-control)
+  - [13.1 Posing](#131-posing)
+  - [13.2 Animation](#132-animation)
 - 14. Sketch Perception Studies
 - 15. Learning-Based Sketch Processing
   - 15.1 Sketch Understanding
@@ -225,6 +225,25 @@ A reading list of papers related to sketch processing and applications. This is 
 | [SKED: Sketch-guided Text-based 3D Editing](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800o4561/1TJgXGJgCYg) | ICCV 2023 | [[project]](https://sked-paper.github.io/) |
 | [SketchDream: Sketch-based Text-to-3D Generation and Editing]() | SIGGRAPH 2024 | [[project]](https://geometrylearning.com/SketchDream/) |
 | [Squidgets: Sketch-based Widget Design and Direct Manipulation of 3D Scenes](https://arxiv.org/abs/2402.06795) | 2024 | |
+
+## 13. Sketch-Based Animation Control
+
+### 13.1 Posing
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [The Line of Action: an Intuitive Interface for Expressive Character Posing](https://dl.acm.org/doi/10.1145/2508363.2508397) | SIGGRAPH Asia 2013 | [[project]](https://team.inria.fr/imagine/the-line-of-action-an-intuitive-interface-for-expressive-character-posing/) |
+| [Differential Blending for Expressive Sketch-Based Posing](https://dl.acm.org/doi/10.1145/2485895.2485916) | SCA 2013 | [[project]](https://cgl.ethz.ch/publications/papers/paperOzt13.php) |
+| [Gesture3D: Posing 3D Characters via Gesture Drawings](https://dl.acm.org/doi/10.1145/2980179.2980240) | SIGGRAPH Asia 2016 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2016/Gesture3D/) |
+| [Sketch2Pose: Estimating a 3D Character Pose from a Bitmap Sketch](https://dl.acm.org/doi/10.1145/3528223.3530106) | SIGGRAPH 2022 | [[project]](https://www-labs.iro.umontreal.ca/~bmpix/sketch2pose/) |
+
+### 13.2 Animation
+
+| Paper | Source | Code/Project Link  |
+| --- | --- | --- |
+| [Space-Time Sketching of Character Animation](https://dl.acm.org/doi/10.1145/2766893) | SIGGRAPH 2015 | [[project]](https://team.inria.fr/imagine/space-time-sketching-of-character-animation/) |
+| [SketchiMo: Sketch-based Motion Editing for Articulated Characters](https://dl.acm.org/doi/10.1145/2897824.2925970) | SIGGRAPH 2016 | [[project]](https://vml.kaist.ac.kr/main/international/individual/2) |
+| [Tangent-Space Optimization for Interactive Animation Control](https://dl.acm.org/doi/10.1145/3306346.3322938) | SIGGRAPH 2019 | [[project]](https://cgl.ethz.ch/publications/papers/paperCic19a.php) |
 
 | []() | | [[]]() |
 
