@@ -83,13 +83,15 @@ A reading list of papers related to sketch processing and applications. This is 
 | [QuickDraw: Improving Drawing Experience for Geometric Diagrams](https://dl.acm.org/doi/10.1145/2207676.2208550) | CHI 2012| |
 | [Advanced Drawing Beautification with ShipShape](https://dl.acm.org/doi/10.1016/j.cag.2016.02.003) | Computers & Graphics 2016 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/shipshape.html) | 
 
-## 5. Sketch Interpolation
+## 5. Sketch Animation
 
 | Paper | Source | Code/Project Link  |
 | --- | --- | --- |
 | [Betweenit An Interactive Tool For Tight Inbetweening](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2009.01630.x) | Eurographics 2010 | [[project]](https://disneyanimation.com/publications/betweenit-an-interactive-tool-for-tight-inbetweening/) [[video]](https://www.youtube.com/watch?v=DuZRNR-6iRo) |
 | [Computer-Assisted Animation of Line and Paint in Disney’s Paperman](https://dl.acm.org/doi/10.1145/2343045.2343071) | SIGGRAPH 2012 Talks | [[project]](https://disneyanimation.com/publications/computer-assisted-animation-of-line-and-paint-in-disneys-paperman/) [[video]](https://www.youtube.com/watch?v=84rl-T2yIls) |
 | [Joint Stroke Tracing and Correspondence for 2D Animation](https://dl.acm.org/doi/10.1145/3649890) | SIGGRAPH 2024 | [[project]](https://markmohr.github.io/JoSTC/) |
+| [Bounded Biharmonic Weights for Real-Time Deformation](https://homes.cs.washington.edu/~jovan/papers/jacobson-2011-bbw.pdf) | SIGGRAPH 2011 | [[project]](https://igl.ethz.ch/projects/bbw/) | 
+| [The Animation Transformer: Visual Correspondence via Segment Matching](https://arxiv.org/abs/2109.02614)| ICCV 2021 | [[project]](https://github.com/zhenglinpan/AnT-pytorch) |
 
 ## 6. Sketch Topology
 
@@ -191,6 +193,8 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Modeling Character Canvases from Cartoon Drawings](https://dl.acm.org/doi/abs/10.1145/2801134) | SIGGRAPH 2015 | [[project]](https://www.cs.ubc.ca/labs/imager/tr/2015/Canvases/) |
 | [RodMesh: Two-handed 3D Surface Modeling in Virtual Reality](https://diglib.eg.org/items/ca3dc460-6022-4bb7-bb87-131c122e9a7a) | VMV 2019 | [[project]](https://igl.ethz.ch/projects/rodmesh/) |
 | [Monster Mash: A Single-View Approach to Casual 3D Modeling and Animation](https://dl.acm.org/doi/10.1145/3414685.3417805) | SIGGRAPH Asia 2020 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/monster_mash) |
+| [ToonSynth: Example-Based Synthesis of Hand-Colored Cartoon Animations](https://dl.acm.org/doi/10.1145/3197517.3201326) | SIGGRAPH 2018 | [[project]](https://dcgi.fel.cvut.cz/home/sykorad/toonsynth.html) |
+| [SmoothSketch: 3D free-form shapes from complex sketches](https://cs.brown.edu/people/jhughes/papers/Karpenko-IDO-2006/paper.pdf) | SIGGRAPH 2006 | [[project]](https://dl.acm.org/doi/10.1145/1141911.1141928) | 
 
 ### 11.2 Geometric and CAD Models
 
@@ -203,6 +207,8 @@ A reading list of papers related to sketch processing and applications. This is 
 | [SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15015) | Eurographics 2024 | [[project]](https://alexandrebinninger.com/SENS/) |
 | [Sketch2CAD: Sequential CAD Modeling by Sketching in Context](https://dl.acm.org/doi/10.1145/3414685.3417807) | SIGGRAPH Asia 2020 | [[project]](https://geometry.cs.ucl.ac.uk/projects/2020/sketch2cad/) |
 | [Free2CAD: Parsing Freehand Drawings Into CAD Commands](https://dl.acm.org/doi/abs/10.1145/3528223.3530133) | SIGGRAPH 2022 | [[project]](https://geometry.cs.ucl.ac.uk/projects/2022/free2cad/) |
+| [3D Sketching using Multi-View Deep Volumetric Prediction] (https://dl.acm.org/doi/10.1145/3203197) | ACM Computer Graphics and Interactive Techniques | [[project]](https://perso.liris.cnrs.fr/johanna.delanoy/2018_3D_sketching/index.html) | 
+| [Locally Attentional SDF Diffusion for Controllable 3D Shape Generation] (https://dl.acm.org/doi/10.1145/3592103) | SIGGRAPH 2023 | [[project]](https://github.com/Zhengxinyang/LAS-Diffusion) |
 
 ### 11.3 Domain Specific
 
@@ -254,6 +260,11 @@ A reading list of papers related to sketch processing and applications. This is 
 | [Tracing Versus Freehand for Evaluating Computer-Generated Drawings](https://dl.acm.org/doi/10.1145/3450626.3459819) | SIGGRAPH 2021 | [[project]](https://zachzeyuwang.github.io/tracing-vs-freehand.html) |
 | [DifferSketching: How Differently Do People Sketch 3D Objects?](https://dl.acm.org/doi/abs/10.1145/3550454.3555493) | SIGGRAPH Asia 2022 | [[project]](https://chufengxiao.github.io/DifferSketching/) |
 | [The Role of Edges in Line Drawing Perception](https://journals.sagepub.com/doi/full/10.1177/0301006621994407) | Perception 2021 | |
+| [On expert performance in 3D curve-drawing tasks](https://dl.acm.org/doi/10.1145/1572741.1572765) | SBIM 2009 | |
+| [Toward a Theory of Perspective Perception in Pictures](https://jov.arvojournals.org/article.aspx?articleid=2793609) | Journal of Vision 2024 | [[project]](https://www.dgp.toronto.edu/~hertzman/perspective/) |
+| [Principles of Gestalt Psychology](https://books.google.com/books/about/Principles_of_Gestalt_Psychology.html?id=KJkAAAAAMAAJ) | Routledge & K. Paul, 1955 | |
+| [Integration of contours: New Insights](https://moodle2.units.it/pluginfile.php/250779/mod_resource/content/0/FieldHayes99.pdf) |  Trends Cogn. Sci. 1999 | |
+
 
 ## 15. Vision Tasks on Sketches
 
@@ -282,3 +293,5 @@ A reading list of papers related to sketch processing and applications. This is 
 | [CLIPascene: Scene Sketching with Different Types and Levels of Abstraction](https://www.computer.org/csdl/proceedings-article/iccv/2023/7.18E127/1TJdfQXb3R6) | ICCV 2023 | [[project]](https://clipascene.github.io/CLIPascene/) |
 | [SketchKnitter: Vectorized Sketch Generation with Diffusion Models](https://iclr.cc/virtual/2023/poster/11832) | ICLR 2023 | [[project]](https://github.com/wangqiang9/SketchKnitter) |
 | [Breathing Life Into Sketches Using Text-to-Video Priors](https://arxiv.org/abs/2311.13608) | CVPR 2024 | [[project]](https://livesketch.github.io/) |
+| [Ridge-Valley Lines on Meshes via Implicit Surface Fitting](https://dl.acm.org/doi/10.1145/1015706.1015768) | SIGGRAPH 2004 | |
+| [Apparent Ridges for Line Drawings](https://people.csail.mit.edu/tjudd/apparentLines.pdf) | SIGGRAPH 2007 | [[project]](https://people.csail.mit.edu/tjudd/apparentridges.html) |
